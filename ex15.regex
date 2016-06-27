@@ -1,0 +1,19 @@
+[0-9]+
+# Set 0 through 9, repeated one or more times
+
+([0-9]+)
+# Begin group
+# Set 0 through 9, repeated one or more times
+# end group
+
+[a-z]+@[a-z.]+
+# Set a through z, repeated one or more times
+# @ symbol
+# Set a trough z or period, repeated one or more times
+
+([a-z]+@[a-z.]+)
+# Begin group
+# Set a through z, repeated one or more times
+# @ symbol
+# Set a trough z or period, repeated one or more times
+# end group

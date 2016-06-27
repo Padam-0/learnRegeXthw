@@ -1,0 +1,4 @@
+# Write an email regex that only captures the host name after the @
+[a-z]+@([a-z.]+)
+# Use the | (or, alternate) symbol to have numbers or letters captured. Hint if you put it between two groups it will alternate between the groups.
+([0-9]+|[A-Z]+)
