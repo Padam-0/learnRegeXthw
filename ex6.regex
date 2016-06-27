@@ -1,0 +1,25 @@
+.*lazy.*
+
+# any character
+# 0 or more times
+# string lazy
+# any character
+# repeat, 0-or-more
+
+[A-Z][a-z]*
+
+# start set
+# A through Z
+# end set
+# then start set
+# a through z (lowercase)
+# end set
+# repeat, 0-or-more
+
+[a-z]\.
+
+# start set
+# a through z
+# end set
+# literal period character
+

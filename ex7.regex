@@ -1,0 +1,36 @@
+^/blog/article/[0-9]$
+# Begins with
+# string /blog/article/
+# start set
+# 0 through 9
+# end set
+# ends with.
+#
+^/blog/articles$
+# Begins with
+# string /blog/articles
+# ends with.
+#
+^/blog$
+# Begins with
+# string /blog
+# ends with.
+#
+^/admin
+# Begins with
+# string /admin
+#
+/blog/article/[0-9]
+# String /blog article/
+# start set
+# 0 through 9
+# end set
+#
+/blog/articles
+# String /blog/articles
+#
+/blog
+# string /blog
+#
+/admin
+# string /admin

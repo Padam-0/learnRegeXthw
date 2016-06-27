@@ -1,4 +1,22 @@
 laz.
+# string laz
+# any character
+
 y..d
+# character y
+# any 2 characters
+# character d
+
 y...\.
+# character y
+# any 3 characters
+# literal period character
+
 T.e.l.z
+# character T
+# any character
+# character e
+# any character
+# character l
+# any character
+# character z

@@ -1,0 +1,38 @@
+[A-Z]{3}-[0-9]{2}-[0-9]{4}
+# Start set
+# A through Z
+# end set
+# repeated 3 times
+# - character
+# start set
+# 0 through 9
+# end set
+# repeated twice
+# - character
+# set 0 through 9
+# repeated 4 times
+#
+[A-Za-z]+? [0-9]{2}, [0-9]{2,4}?
+# set A through Z, Upper or Lower
+# repeated one or more times
+# optional
+# space character
+# set 0 through 9
+# repeated twice
+# , character
+# space character
+# set 0 through 9
+# repeated at least twice, maximum 4 times
+# not greedy
+#
+[0-9]{2}-[0-9]{2}-[0-9]{2,4}?
+# set 0 through 9
+# repeated twice
+# character -
+# set 0 through 9
+# repeated twice
+# character -
+# set 0 through 9
+# repeated at least twice, maximum 4 times
+# not greedy
+

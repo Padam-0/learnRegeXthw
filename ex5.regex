@@ -1,0 +1,14 @@
+!match
+# set mode to match
+
+[^aeiouyAEIOUY]
+# open set
+# not
+# any character a, e, i, o, u, or y, Upper or Lower
+# end set
+
+[^xX]
+# end set
+# not
+# any character x or X
+# end set

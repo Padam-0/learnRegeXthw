@@ -1,0 +1,11 @@
+^/blog/article/[0-9]?$
+# Beings with
+# string /blog/article/
+# start set
+# 0 through 9
+# end set
+# previous element (set) is optional
+# ends with.
+
+^/blog/article/[0-9]*?$
+

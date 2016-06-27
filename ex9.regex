@@ -1,0 +1,27 @@
+^/blog/article/[0-9]*$
+# Beings with
+# string /blog/article/
+# start set
+# 0 through 9
+# end set
+# repeat set, 0-or-more
+# ends with
+#
+^/blog/article/[A-Z]+-[0-9]+-[0-9]+$
+# Begins with
+# string /blog/article/
+# start set
+# A through Z
+# end set
+# repeat set, one-or-more
+# character -
+# start set
+# 0 through 9
+# end set
+# repeat set, one-or-more
+# character -
+# start set
+# 0 through 9
+# end set
+# repeat set, one-or-more
+# ends with.

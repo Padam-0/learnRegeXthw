@@ -1,0 +1,14 @@
+[aeiouy]
+# start set
+# any character of a, e, i, o, u, or y
+# end set
+
+[a-z]
+# start set
+# any character a through z (lower)
+# end set
+
+[0-9]
+# start set
+# any character 0 through 9
+# end set
