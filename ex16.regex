@@ -1,0 +1,42 @@
+# Corpus is:
+#	My IP address is 99.123.32.12 don't hack me.
+#	I have 10 cats, 4 dogs, and 1 hamster.
+# 	Go to http://index.html/ now.
+#
+# Aim is to 
+# 	1. make a search/replace that replaces only IP addresses with "X.X.X.X" so that it is sanitized.
+# 	2. Make another regex that will fix this URL so that it has https and is a correct URL not just a file.
+#
+!rep /[0-9]/X/
+# Replace
+# Start search
+# 	Set 0 through 9
+# End search / Start replace
+#	String X
+# End replace
+#
+!rep /[0-9]+\.[0-9]+\.[0-9]+/X.X.X.X/
+# Replace
+# Start search
+# 	/ character
+# 	Set 0 through 9, repeated one-or-more times
+# 	Literal period character
+# 	Set 0 through 9, repeated one-or-more times
+# 	Literal period character
+# 	Set 0 through 9, repeated one-or-more times
+# End Search / Start replace
+# 	String X.X.X.X
+# End replace
+#
+!rep ,http://(.+?)/,https://site.com/\1,
+# Replace
+# Start search
+#	String http://
+#	Start Group 1
+#		Any character, repeated one or more times (optional)
+#	End Group 1
+#	/ character
+# End Search / Start Replace
+#	String https://site.com/
+#	Capture from group 1
+# End Replace
