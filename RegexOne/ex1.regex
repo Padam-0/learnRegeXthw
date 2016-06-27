@@ -1,0 +1,4 @@
+[a-z]*.*[0-9]*
+# Set a through z repeated zero-or-more times
+# any character repeated zero-or-more times
+# Set 0 through 9 repeated zero-or-more times

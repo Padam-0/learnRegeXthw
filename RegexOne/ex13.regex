@@ -1,0 +1,11 @@
+# Corpus:
+# Capture height and width px sizes
+
+([0-9]{4})x([0-9]{3,4})
+# Begin group
+#	Set 0 through 9 repeated 4 times
+# End group
+# character x
+# Begin group
+#	Set 0 through 9, repeated at least 3 times, max 4 times
+# End group

@@ -1,0 +1,11 @@
+# Corpus:
+# Capture: file_record_transcript
+# Capture: file_07241999
+
+(.*)\.pdf$
+# Begin Group
+#	Any character, repeated zero or more times
+# End group
+# Literal period character
+# String pdf
+# Ends with

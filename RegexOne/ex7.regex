@@ -1,0 +1,4 @@
+^a+[bc]+
+# Begins with
+# character a repeated one-or-more times
+# Set bc repeated one-or-more times

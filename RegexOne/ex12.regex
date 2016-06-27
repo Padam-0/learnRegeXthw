@@ -1,0 +1,14 @@
+# Corpus:
+# Capture whole string, and year
+
+([A-Z][a-z]{2} ([12][0-9]{3}))
+
+# Begin group
+#	Set A through Z
+#	Set a through z, repeated twice
+#	Space character
+#	Begin nested group
+#		Set 1 or 2
+#		Set 0 through 9, repeated 3 times
+#	End group
+# End group

@@ -1,0 +1,5 @@
+^waz{2,5}up
+# Begins with
+# string wa
+# character z, repeated at least twice, max 5 times
+# string up

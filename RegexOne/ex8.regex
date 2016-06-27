@@ -1,0 +1,7 @@
+^\d+ files? found\?
+# Begins with
+# any digit repeated one-or-more times
+# string " file"
+# character s (optional)
+# string " found"
+# ? character

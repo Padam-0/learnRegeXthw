@@ -1,0 +1,4 @@
+^[A-Z][a-z]+
+# Begins with
+# set A through Z
+# Set a through z repeated one-or-more times

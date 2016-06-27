@@ -1,0 +1,6 @@
+^\d+\.\s+[a-z]+
+# Beings with
+# Any digit, repeated one-or-more times
+# literal period character
+# any whitespace repeated one or more times
+# set a-z repeated one or more times
