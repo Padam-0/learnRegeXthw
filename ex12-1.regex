@@ -1,0 +1,11 @@
+\b[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\b
+
+# Begin word boundary
+# set 0 through 9, repeated at least once, max 3 times
+# Literal period character
+# set 0 through 9, repeated at least once, max 3 times
+# Literal period character
+# set 0 through 9, repeated at least once, max 3 times
+# Literal period character
+# set 0 through 9, repeated at least once, max 3 times
+# End word boundary

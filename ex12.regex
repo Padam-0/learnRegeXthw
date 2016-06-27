@@ -1,0 +1,35 @@
+\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b
+
+# Begin word boundary
+# Begin group
+#	String 25, set 0 through 5
+#	OR
+#	String 2, set 0 through 4, set 0 through 9
+# 	OR
+#	Set 0 or 1 (optional), set 0 through 9, set 0 through 9 (optional)
+# End group
+# literal period character
+# Begin group
+#	String 25, set 0 through 5
+#	OR
+#	String 2, set 0 through 4, set 0 through 9
+# 	OR
+#	Set 0 or 1 (optional), set 0 through 9, set 0 through 9 (optional)
+# End group
+# literal period character
+# Begin group
+#	String 25, set 0 through 5
+#	OR
+#	String 2, set 0 through 4, set 0 through 9
+# 	OR
+#	Set 0 or 1 (optional), set 0 through 9, set 0 through 9 (optional)
+# End group
+# literal period character
+# Begin group
+#	String 25, set 0 through 5
+#	OR
+#	String 2, set 0 through 4, set 0 through 9
+# 	OR
+#	Set 0 or 1 (optional), set 0 through 9, set 0 through 9 (optional)
+# End group
+# End word boundary

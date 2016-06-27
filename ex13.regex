@@ -1,0 +1,25 @@
+\.\*\[.+\]\.\*
+# Literal period character
+# Literal star character
+# Literal open bracket
+# Any character repeated one-or-more times
+# Literal close bracket
+# Literal period chracter
+# Literal star chracter
+
+^\^.+\.\*\$$
+# Begins with
+# Literal caret character
+# Any character repeated one-or-more times
+# Literal period character
+# Literal star character
+# Literal dollar sign
+# Ends with
+
+\\\+\*.*\$$
+# Literal backslash
+# Literal plus sign
+# Literal star character
+# Any character repeated zero-or-more times
+# Literal dollar sign
+# Ends with

@@ -1,0 +1,14 @@
+\s+\w+ have \w+\s+
+# Any whitespace character, repeated one-or-more times
+# Any alphanumeric character, repeated one-or-more times
+# string " have "
+# Any alphanumeric character, repeated one-or-more times
+# Any whitespace character, repeated one-or-more times
+#
+.*have\s\d*\s.*
+# Any character, repeated zero-or-more times
+# String have
+# Any whitespace character
+# Any digit, repeated zero-or-more times
+# Any whitespace character
+# Any character, repeated zero-or-more times

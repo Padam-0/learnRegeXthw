@@ -1,0 +1,37 @@
+^[0-9]+|[A-Z]+$
+# Begins with
+# set 0 through 9
+# repeated one or more times
+# OR
+# set A through Z
+# repeated one or more times
+# ends with
+
+^[0-9]+|[a-z]+$
+# Begins with
+# set 0 through 9
+# repeated one or more times
+# OR
+# set a through z
+# repeated one or more times
+# ends with
+#
+^[4-6]+|[A-Z]+$
+# Begins with
+# set 4 through 6
+# repeated one or more times
+# OR
+# set A through Z
+# repeated one or more times
+# ends with
+#
+^[^0-9]+|^[^A-Z]+$
+# Begins with
+# set not (0 through 9)
+# repeated one or more times
+# OR
+# begins with
+# set not (A through Z)
+# repeated one or more times
+# ends with
+
